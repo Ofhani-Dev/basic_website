@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my-webpage</title>
+
+    <style>
+        .headings2{
+            padding-left: 1em;
+        }
+        .mycity{
+            padding: 1em;
+            margin: 0.5em;
+        }
+        .languages{
+            padding: 1em;
+            margin: 0.5em;
+        }
+        .hp{
+            padding: 0.5em;
+            margin: 1em;
+        }
+        .history_places{
+            background-color: #dda15e;
+        }
+        .clearfix{
+            overflow: auto;
+            zoom: 1;
+        }
+        @media(min-width:400px){
+
+            body{
+                background-color: #dda15e;
+            }
+            .header h1{
+                text-align: center;
+                padding: 1em ;
+            }
+            .header img{
+               display: block;
+               margin-left: auto;
+               margin-right: auto;
+            }
+            .h1{
+                float: right;
+                border-radius: 8px;
+            }
+            .h2{
+                float: left;           
+                border-radius: 8px;
+            }
+            .h3{
+                float: right;
+                border-radius: 8px;
+            }
+        }
+        @media(min-width:800px){
+
+            body{
+                background-color: #fefae0;
+            }
+            .header img{
+                margin-right: 250px;
+                float: right;
+                margin-bottom: 50px;
+            }
+            .header h1{
+                height: 0em;
+                display: flex;
+                align-items: center;
+            }
+            .img0{
+                float: left;
+                padding-right: 0.5em;
+
+            }
+            .h1{
+                float: right;
+            }
+            .h2{
+                float: right;
+            }
+            .h3{
+                float: right;
+            }
+            .history_places{
+                display: flex;
+            }
+        }
+        table, th, td{
+            border: 0.5px solid black;
+        }
+        th, td {
+            padding: 15px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="clearfix header">
+        <h1>Full Name</h1>
+        <img src="cars.jpg" width="350">
+    </div>
+      
+<div>
+    <h2 class="headings2">Which City</h2>
+    <div class="clearfix mycity">
+        <img class="img0" src="cars.jpg" width="250">
+        <div>
+            At vero eos et accusamus et iusto odio dignissimos ducimus 
+            qui blanditiis praesentium voluptatum delenitiatque corrupti 
+            quos dolores et quas molestias excepturi sint occaecati cupi.
+            At vero eos et accusamus et iusto odio dignissimos ducimus 
+            qui blanditiis praesentium voluptatum delenitiatque corrupti 
+            quos At vero eos et accusamus et iusto odio dignissimos ducimus 
+            qui blanditiis praesentium voluptatum delenitiatque corrupti 
+            quos dolores et quas molestias excepturi sint occaecati cupi.
+            At vero eos et accusamus et iusto odio dignissimos ducimus 
+            qui blanditiis praesentium voluptatum delenitiatque corrupti 
+            quos dolores et quas molestias excepturi sint occaecati cupi.
+            dolores et quas molestias excepturi sint occaecati cupi.
+        </div>
+    </div>
+</div>
+<div>
+    <h2 class="headings2">Foreign Language</h2>
+    <div class="languages">
+    At vero eos et accusamus et iusto odio dignissimos ducimus 
+    qui blanditiis praesentium voluptatum delenitiatque corrupti 
+    quos dolores et quas molestias excepturi sint occaecati cupi.
+    At vero eos et accusamus et iusto odio dignissimos ducimus 
+    qui blanditiis praesentium voluptatum delenitiatque corrupti 
+    quos dolores et quas molestias excepturi sint occaecati cupi.
+        <div>
+            <h3>Foreign Languages Table</h3>
+            <table>
+                <tr>
+                    <th>Country of origin</th>
+                    <th>Language of choice</th>
+                    <th>Five word phrase</th>
+                </tr>
+                <tr>
+                    <td>occaecati quos dolores et </td>
+                    <td>occaecati quos dolores et </td>
+                    <td>occaecati quos dolores et </td>
+                </tr>
+                <tr>
+                    <td>occaecati quos dolores et </td>
+                    <td>occaecati quos dolores et </td>
+                    <td>occaecati quos dolores et </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div> 
+
+<div>
+    <h2 class="headings2">Historical Places</h2>
+
+    <div class="history_places"> 
+        <div class=" clearfix hp place1">
+            <h3>Location 1</h3>
+                <img class="h1" src="cars.jpg" width="250" height="250">
+                <div>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus   
+                </div>
+            </div>
+        
+        <div class="clearfix hp place2">
+            <h3>Location 2</h3>
+            <div>
+                <img class="h2" src="cars.jpg" width="250" height="250">
+                <div>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus 
+                </div>
+            </div>
+        </div>
+        <div class=" clearfix hp place3">
+            <h3>Location 3</h3>
+            <div>
+                <img class="h3" src="cars.jpg" width="250" height="250">
+                <div>
+                    At vero eos At vero eos et accusamus et iusto odio dignissimos ducimus
+                </div>
+            </div>  
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
